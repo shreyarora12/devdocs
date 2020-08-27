@@ -17,6 +17,30 @@ including minor and bugfix releases, refer to the `UPGRADE.md` file found in you
 
 <div class="toc-list"></div>
 
+## Shopware 5.7
+
+### System requirements changes
+
+The **minimum PHP version** has been increased to **PHP 7.3 or higher**.  We’ve also added support for **PHP 8.0** and
+encourage you to use the latest version.
+
+The **minimum Elasticsearch version is 7.0**, support for Elasticsearch 6 has been dropped due to the 
+underlying library being used.
+
+### Core changes
+
+We have migrated the Session system from Zend Session to Symfony Session. This change is happend in the underhood, the access using `Enlight_Session_Namespace` didn't changed. The actual Symfony session is attached to the `Request` (`$request->getSession()`.
+
+### Library updates
+
+* Updated `Symfony` to 4.4 LTS
+* Updated `mpdf/mpdf` to 8.0.7
+* Migrated components to Laminas
+
+### Changes due Library updates
+
+* All services are private by default. The quick-fix could be to change the default to public. 
+
 ## Shopware 5.6
 
 ### System requirements changes
