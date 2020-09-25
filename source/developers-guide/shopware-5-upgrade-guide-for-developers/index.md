@@ -70,6 +70,8 @@ diff a/example.tpl b/example.tpl
 
 * Updated `Symfony` to 4.4 LTS
 * Updated `mpdf/mpdf` to 8.0.7
+* Updated `guzzlehttp/guzzle` to 7.0.1
+* Updated `monolog/monolog` to 2.0.1
 * Migrated components to Laminas
 
 ### Changes due Library updates
