@@ -33,7 +33,7 @@ It is important to put the plugin into the proper Frontend/Backend/Core subdirec
 
 ### Example
 
-`exampleplugins/Frontend/SwagSloganOfTheDay/` will result in `exampleplugins/SwagSloganOfTheDay.zip` in the generated output directory. Please not that the subdirectory is not part of the resulting directory/filename.
+`exampleplugins/Frontend/SwagSloganOfTheDay/` will result in `exampleplugins/SwagSloganOfTheDay.zip` in the generated output directory. Please note that the subdirectory is not part of the resulting directory/filename.
 
 [2]: https://sculpin.io/
 [3]: https://sculpin.io/download
@@ -93,7 +93,7 @@ sculpin_algolia:
 ```
 
 The API Key should be provided via the environment variable `SYMFONY__ALGOLIA_API_KEY`.
-To enable the also the environment variable `SYMFONY__ALGOLIA_ENABLED` must exist.
+To enable, the environment variable `SYMFONY__ALGOLIA_ENABLED` also must exist.
 
 ```bash
 SYMFONY__ALGOLIA_ENABLED=1 SYMFONY__ALGOLIA_API_KEY=MYAPIKEY ./vendor/bin/sculpin generate
